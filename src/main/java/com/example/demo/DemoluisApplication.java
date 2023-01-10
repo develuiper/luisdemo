@@ -11,6 +11,7 @@ public class DemoluisApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoluisApplication.class, args);
+		System.out.println("Hola luis"); 
 	}
 	@GetMapping("/hola")
 	public String hola() {
