@@ -9,4 +9,9 @@ public class LuisController {
 	public String hola() {
 		return "estamos en la nubexx"; 		
 	}
+	
+	@GetMapping("/")
+	public String ola() {
+		return "estamos en la nubexx"; 		
+	}
 }
